@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/home2.css"> 
+   
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<script src="https://kit.fontawesome.com/0090375367.js" crossorigin="anonymous"></script> 
+<link rel="stylesheet" href="css/sign in.css">
+</head>
+<body>
+  <nav class="form-inline my-2 my-lg-0"  id="search_bar">
+    <i class="fas fa-user-astronaut fa-spin" id="astro" style="color: rgb(255, 94, 0); margin-left: 10px;"></i> &nbsp;;
+    <a class="navbar-brand" id="astronomy" href="Home.html">Movie Show</a>
+    <input class="form-control mr-sm-2"  type="search" placeholder="Search" aria-label="Search">
+    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+  
+    <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="city" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          City
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="location">
+          <a class="dropdown-item" href="">Hyderabad</a>
+          <a class="dropdown-item" href="">Mumbai</a>
+          <a class="dropdown-item" href="">Pune</a>
+         
+         </div>
+      </li> -->
+
+      <li class="nav-item" >
+        <a href="./signin.html">
+        <button class="nav-link" id="signin" href=""><p>Sign In</p></button>
+        </a>
+         
+    </li>
+</nav>
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navigation">
+    
+   
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+         
+            <i class="fa fa-home  " style="position: relative; bottom:7px; color: rgb(238, 26, 203);" id="hom"></i>
+           
+            <li class="nav-item active" >
+              <a class="nav-link active" id="home" href="./Home.html" style="color: orange;font-weight: bolder;">Home <span class="sr-only">(current)</span></a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">About</a>
+            </li>
+             
+            <li class="nav-item">
+                <a class="nav-link" href="./Contact Us.html">Contact</a>
+            </li>
+
+           
+
+            <li class="nav-item">
+                <a class="nav-link" href="./register.html">Register</a>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link" href="./streams.html">Streams</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./offers.html">Offers</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./giftCards.html">Gift Cards</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./events.html">Trends</a>
+            </li>
+           
+            &nbsp; &nbsp;&nbsp;&nbsp;
+            <i class="fa fa-wpexplorer fa-spin" id="telescope"  style="position: relative; bottom: 3px; color: gold;" ></i> &nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="./book_ticket.html">Book Ticket</a>
+          </li>
+        </ul>
+       
+      </div>
+    </nav>
+    <div class="container">
+    <img src="img/planet.jpg" height="100px" width="800px">
+        <div class="centered"><strong>Create Account</strong><p id="text">Sign in Now!</div>
+      </div>
+      <br>
+      <br>
+      <br>
+        <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <fieldset>
+      <br>
+      <legend>Sign In</legend>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-8">First Name</label>  
+      <div class="col-md-8 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  name="first_name" placeholder="First Name" class="form-control" id="fname" type="text" onblur="validate_fname()" required>
+      </div>
+        <p id="error_fname"></p>
+      </div>
+    </div>
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-8" >Last Name</label> 
+        <div class="col-md-8 inputGroupContainer">
+        <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input name="last_name" placeholder="Last Name" class="form-control"  id="lname" type="text" onblur="validate_lname()" required>
+      </div>
+        <p id="error_lname"></p>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+           <div class="form-group">
+      <label class="col-md-8">E-Mail</label>  
+        <div class="col-md-8 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input name="email" placeholder="E-Mail Address" class="form-control" id="email" type="text" onblur="validate_email()" required>
+      </div>
+        <p id="error_email"></p>
+      </div>
+    </div>
+    
+    
+    <!-- Text input-->
+<!--            
+    <div class="form-group">
+      <label class="col-md-8">Phone</label>  
+        <div class="col-md-8 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+      <input name="phone" placeholder="8888888888" class="form-control" id="phone" maxlength="10" type="text" onblur="validate_phone()" required>
+        </div>
+        <p id="error_phone"></p>
+      </div>
+    </div> -->
+    <!-- Text area -->
+  
+<div class="form-group">
+    <label class="col-md-8">Password</label>
+      <div class="col-md-8 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-eye-close"></i></span>
+        <input name="password" placeholder="password" class="form-control" id="password" type="password" onblur="validate_password()" required>
+          <!-- <span class="input-group-addon"><i class="glyphicon glyphicon-eye-open"></i></span>
+          
+              <textarea class="form-control" name="Password" placeholder="password" minlength=6 required></textarea> -->
+            </div>
+            <p id="error_password"></p>
+          </div>
+    </div>
+    </div>
+  </div>
+  <!-- Button -->
+<div class="form-group">
+    <label class="col-md-8"></label>
+    <div class="col-md-8">
+      <button type="submit" class="btn btn-warning" formaction="http://www.google.co.in" >Sign In <span class="glyphicon glyphicon-send"></span></button>
+    </div>
+  </div>
+  
+  </fieldset>
+  </form>
+  
+  
+  <footer id="footer">
+    <hr>
+    <a style="float:left; color:white ; font-weight: bold; text-align: center;
+     margin-left: 10px; font-size: 25px;" href="./food/food_website.html">Enjoy Your Food </a>
+
+
+<a href="./Contact Us.html">
+  <input type="button" id="but" value="Contact" 
+ style="float: right; position: relative;right: 20px;color:black;
+ background-color: rgb(6, 247, 114);"></a><br>
+    <h3 style="position: relative;right: 35px;"> Movie Show</h3>
+    <br>
+    <br>
+    <!-- <i class="fa  fa-users " id="customer" ></i> 
+    <p id=cust>  24/7 Customer Care</p>
+  <br><br>
+  <i class="fa  fa-mobile " id="mob" ></i>
+  <p id=tick> Book Ticket</p>
+
+  <i class="fa  fa-pencil-square-o " id="mail" ></i>
+  <p id=mai > Mail Us</p> -->
+    <br><br>
+
+   <div class="foot">
+    <a class="fa  fa-windows  " id="ho" href="https://www.microsoft.com/en-in"></a>&nbsp;&nbsp;
+    <a class="fa fa-google  " id="ho" href="https://www.google.com/"></a>&nbsp;&nbsp;
+    <a class="fa fa-linkedin-square " id="ho" href="https://in.linkedin.com/" id="hom"></a>&nbsp;&nbsp;
+    <a class="fa fa-send-o  " id="ho" href="https://telegram.org/"></a>&nbsp;&nbsp;
+    <a class="fa fa-twitter-square   " id="ho"  href="https://twitter.com/?lang=en-in"></a>&nbsp;
+     &nbsp; &nbsp;
+     <span id="ho" >&copy;All Rights Reserved 2021 </span>
+     </div>
+  </footer>
+  <script>
+    function validate_fname()
+    {
+      var regex = /^[a-zA-Z]+$/;
+      let x=document.getElementById("fname").value;
+    if(regex.test(x) == false){
+   document.getElementById("error_fname").innerHTML="Name must be alphabets only";
+    }
+    else if(x == " "){
+      document.getElementById("error_fname").innerHTML="Name must not be empty";
+    }
+    else
+    {
+    document.getElementById("error_fname").innerHTML="valid!";
+    document.getElementById("error_fname").style.color="green";
+    }
+    }
+    function validate_lname()
+    {
+      var regex = /^[a-zA-Z]+$/;
+      let x=document.getElementById("lname").value;
+    if(regex.test(x) == false){
+   document.getElementById("error_lname").innerHTML="Name must be alphabets only";
+    }
+    else if(x == " "){
+      document.getElementById("error_lname").innerHTML="Name must not be empty";
+    }
+    else
+    {
+    document.getElementById("error_lname").innerHTML="valid!";
+    document.getElementById("error_lname").style.color="green";
+    }
+    }
+    function validate_email()
+    {
+      var regex = /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@{[a-zA-Z0-9_\-\.]+0\.([a-zA-Z]{2,5}){1,25})+)*$/;
+      let x=document.getElementById("email").value;
+    if(regex.test(x) == false){
+   document.getElementById("error_email").innerHTML="Please enter valid email address";
+    }
+    else if(x == " "){
+      document.getElementById("error_email").innerHTML="Email should not empty";
+    }
+    else
+    {
+    document.getElementById("error_email").innerHTML="valid!";
+    document.getElementById("error_email").style.color="green";
+    }
+    }
+  //   function validate_phone()
+  //   {
+  //     var regex = /^[6-9]{1}[0-9]{9}$/;
+  //     let x=document.getElementById("phone").value;
+  //   if(regex.test(x) == false){
+  //  document.getElementById("error_phone").innerHTML="Please enter valid phone";
+  //   }
+  //   else if(x == " "){
+  //     document.getElementById("error_phone").innerHTML="Phone must not be empty";
+  //   }
+  //   else
+  //   {
+  //   document.getElementById("error_phone").innerHTML="valid!";
+  //   document.getElementById("error_phone").style.color="green";
+  //   }
+  //   }
+    function validate_password()
+    {
+      var regex = /^[a-zA-Z0-9!@#$%&*]{4,8}$/;
+      let x=document.getElementById("password").value;
+    if(regex.test(x) == false){
+   document.getElementById("error_password").innerHTML="Please enter valid password";
+    }
+    else if(x == " "){
+      document.getElementById("error_password").innerHTML="Password must not be empty";
+    }
+    else
+    {
+    document.getElementById("error_password").innerHTML="valid!";
+    document.getElementById("error_password").style.color="green";
+    }
+    }
+  </script>
+</body>
+</html>

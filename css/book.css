@@ -1,0 +1,78 @@
+#jumb1 {
+    /* background: url('../img/strawberries.jpg')no-repeat center center/cover; */
+    background: url('../img/37951.jpg')no-repeat center center/cover;
+    height: 480px;
+}
+
+#jumb2 {
+    /* background: url('../img/strawberries.jpg')no-repeat center center/cover; */
+    background: url('../img/37959.jpg')no-repeat center center/cover;
+    height: 480px;
+}
+
+#jumb3 {
+    /* background: url('../img/strawberries.jpg')no-repeat center center/cover; */
+    background: url('../img/37981.jpg')no-repeat center center/cover;
+    height: 480px;
+}
+
+.pass {
+    width: 300px;
+    height: 300px;
+}
+
+.movie {
+    position: relative;
+    top: 70px;
+    color: cornsilk;
+}
+
+#book_jumbo {
+    position: relative;
+    top: 40px;
+    background: -webkit-linear-gradient(left, rgb(255, 0, 255), rgb(253, 189, 12) 30%, rgb(5, 205, 231), rgb(22, 19, 19));
+}
+
+#bhok span {
+    position: relative;
+    font-size: 60px;
+    top: 3px;
+}
+
+#bhok {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+#bhok:hover {
+    text-shadow: 0 0 20px rgb(230, 60, 230), 0 0 20px red, 0 0 10px blue;
+    font-size: 70px;
+}
+
+
+/*  book2 page*/
+
+.classs {
+    position: relative;
+    left: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+#high {
+    position: relative;
+    left: 400px;
+    bottom: 393px;
+}
+
+#firs {
+    background-color: rgb(129, 85, 85);
+    height: 470px;
+}
+
+#s2 {
+    position: relative;
+    left: 105px;
+    font-weight: bold;
+}

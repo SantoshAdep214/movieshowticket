@@ -1,0 +1,155 @@
+/* register page design */
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#label
+{
+    color: rgb(0, 0, 0);
+    bottom: 500px;
+    font-weight: 700;
+}
+
+#label1
+{
+    
+    /* color: rgb(115, 158, 199); */
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+#label3
+{
+color: rgb(6, 6, 7);
+font-weight: 500;
+}
+
+#body1{
+    /* background-image: url("../img/movie2.jpg")  ; */
+
+    /* background: url('../img/movie2.jpg') no-repeat center center/cover; */
+    background: url('../img/house.jpg') no-repeat center center/cover;
+   
+}
+form
+{
+ margin-left: 480px; margin-top: 30px;
+ margin-bottom: 30px;
+}
+#d1{
+    float: right;
+    bottom: 60px;
+   
+}
+span{
+    color:white;
+}
+/* eventpage */
+#c
+{
+    height: 500px; margin-bottom: 50px; position: relative;  
+   
+    display: block;
+    max-width:100%; 
+    
+    margin: auto;
+    line-height: 1;
+    width: 100%;
+
+}
+
+#c1
+{
+    /* background: url('../eventhandling/event1.jpg') no-repeat center center/cover; */
+    height: 400px; 
+    
+    
+}
+#card:hover
+        {
+          background-color: cornflowerblue;
+          position: relative;
+          bottom:2px;
+          
+        }
+/* #card1
+{
+    margin-bottom:5px;
+    
+} */
+c:hover{
+    margin-top: 300px;
+    
+
+}
+#dimg
+{
+    background: url('../eventhandling/event9.jpg') no-repeat center center/cover;
+    height:300px;
+    
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 1px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      color: lightgray;
+  }
+  
+  .fa-facebook {
+    background:darkgray;
+    color: grey;
+  }
+  
+  .fa-twitter {
+    background:darkgray;
+    color: grey;
+  }
+  .fa-youtube {
+    background:darkgray;
+    color: grey;
+  }
+  
+  .fa-instagram {
+    background:darkgray;
+    color: grey;
+  }
+  
+  .fa-pinterest {
+    background:darkgray;
+    color: grey;
+  }
+  
+  .fa-snapchat-ghost {
+    background:darkgray;
+    color: grey;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  }
+footer{
+  background-color: rgb(43, 34, 34);
+  color: rgb(151, 149, 136);
+  text-align: center;
+  position: relative;
+  top:10px;
+  
+}
+
+.foot
+{
+    position: relative;
+    
+    background-color: rgb(59, 54, 48);
+}
+

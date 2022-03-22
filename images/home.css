@@ -1,0 +1,215 @@
+
+#navigation
+{
+    position:sticky;
+    display:flex; /*come to the row after flex all navbar*/
+    align-items: center;
+   /* justify-content: center;*/
+   
+   
+}
+
+#navigation::before{
+    content: " ";
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    height: 99%;
+    width: 98%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#search_bar
+{
+    position: relative;
+    top:0px;
+    background-color: rgb(26, 33, 33);
+    height: 77px;
+}
+
+#search_bar input
+{
+    width: 40%;
+    height:30px;
+}
+
+#city
+{  
+    
+    position: relative;
+    bottom:14px;
+    left: 380px;
+    flex-wrap: wrap;
+}
+
+#signin
+{
+    position: relative;
+    bottom:14px;
+    left: 400px; 
+    border-radius: 10px;  
+    height:30px;
+    background-color: rgb(255, 179, 0);
+    flex-wrap: wrap;
+    
+    
+}
+#signin p{
+    position: relative;
+    bottom: 9px;
+    color: rgb(13, 11, 11);
+}
+
+#jumbo
+{
+    /* background: url('../img/strawberries.jpg')no-repeat center center/cover; */
+    background: url('../img/37952.jpg')no-repeat center center/cover;
+    height: 250px;
+   
+}
+
+#jumbo5
+{
+    /* background: url('../img/strawberries.jpg')no-repeat center center/cover; */
+    background: url('../img/37967.jpg')no-repeat center center/cover;
+    height: 250px;
+   
+}
+
+#jumbo6
+{
+    /* background: url('../img/strawberries.jpg')no-repeat center center/cover; */
+    background: url('../img/planet.jpg')no-repeat center center/cover;
+    height: 250px;
+    
+    color: rgb(128, 111, 111);
+   
+}
+
+#Interstellar
+{
+    text-align: center;
+}
+#header1
+{
+    font-size: 50px;
+}
+
+#astro
+{
+    color: darkgrey;
+    position: relative;
+    left: 15px;
+    size: 30px;
+}
+
+#telescope
+{
+    color: rgb(212, 77, 77);
+    position: relative;
+    bottom: 3px;
+}
+
+footer{
+    background-color: rgb(43, 34, 34);
+    color: rgb(151, 149, 136);
+    text-align: center;
+    position: relative;
+    top:10px;
+    
+  
+
+    
+}
+
+#book
+{
+    width: 250px;
+    background-color: black;
+    color: rgb(169, 149, 149);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+#pass
+{
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 40px;
+    color: white;
+}
+#pass2
+{
+    float: right;
+    position: relative;
+    bottom:25px;
+    font-size: 33px;
+    color: white;
+}
+#jumbotron
+{
+    margin:50px;
+    height:30px;
+    background: -webkit-linear-gradient(left, rgb(43, 39, 39), grey 30%, rgb(201, 49, 49) 30%, rgb(1, 247, 255));
+}
+
+#box
+{
+    display: grid;  
+    grid-template-areas:
+    /* 'box1 box1 box2 box2'
+    'box3 box3 box4 box4'
+    'box5 box5 box6 box6'; 
+    'box1 box2 ';*/
+    'box1 box2 box3 box4 box5 ';
+     grid-gap: 25px;
+}
+#box1
+{
+    border-radius: 9px;
+    height:280px;
+    background: url('../img/34916.jpg')no-repeat center center/cover;
+}
+#box2
+{
+    border-radius: 9px;
+    height:280px;
+    background: url('../img/37946.jpg')no-repeat center center/cover;
+}
+#box3
+{
+    border-radius: 9px;
+    height:280px;
+    background: url('../img/37951.jpg')no-repeat center center/cover;
+}
+#box4
+{
+    border-radius: 9px;
+    height:280px;
+    background: url('../img/37959.jpg')no-repeat center center/cover;
+}
+#box5
+{
+    border-radius: 9px; 
+    height:280px;
+    background: url('../img/37956.jpg')no-repeat center center/cover;
+}
+/* #box6
+{
+    border-radius: 9px;
+    height:280px;
+    background: url('../img/37958.jpg')no-repeat center center/cover;
+} */
+#m1
+{
+    position: relative;
+    top: 280px;
+    font-size: 30px;
+}
+.eng
+{
+    position: relative;
+    top: 280px;
+    font-size: 30px;  
+}
